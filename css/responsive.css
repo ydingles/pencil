@@ -1,7 +1,4 @@
 header {
-    background-image: url(../img/pencil-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 600px;
     padding: 1.5em;
 }
@@ -14,4 +11,22 @@ header h1 {
 header p {
     font-size: 200%;
     font-weight: 300;
+    display: none;
+}
+
+svg {
+    height:4em;
+}
+
+@media screen and (min-width: 768px) {
+header {
+    background-image: url(../img/pencil-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.motto {
+    display: initial;
+}
+
+
 }
